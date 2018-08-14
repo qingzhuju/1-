@@ -19,7 +19,7 @@ event Burn(address indexed from, uint256 value);
 * 初始化构造
 */
 function TokenERC20(uint256 initialSupply, string tokenName, string tokenSymbol) public {
-totalSupply = initialSupply * 547500 ** uint256(decimals);  // 供应的份额，份额跟最小的代币单位有关，份额 = 币数 * 10 ** decimals。
+totalSupply = 547500 * 0 ** uint256(decimals);  // 供应的份额，份额跟最小的代币单位有关，份额 = 547500 * 0 ** decimals。
 balanceOf[msg.sender] = totalSupply;                // 创建者拥有所有的代币
 name = 轻竹居生态共享别墅居住票;                                   // 代币名称
 symbol = QJZP;                               // 代币符号
